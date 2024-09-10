@@ -5,7 +5,7 @@ This in an ad-hoc Python script used to georeference video annotations of deep-s
 
 To run this code, you will need:
 
-- **Video annotation reports from BIIGLE**: Exported as a '.csv' file, with an additional column for the start time of each annotated video.
+- **Video annotation reports from BIIGLE**: Exported as a '.csv' file, with an additional column (`start_time`) for the start time of each annotated video.
   *Note: Before running the script, manually insert a new column with the start time of each annotated video and remove the brackets '[ ]' in `frames`.*
 
 - **Navigation file**: A '.csv' file containing time, latitude and longitude (e.g., the USBL position of a Remotely Operated Vehicule (ROV))
