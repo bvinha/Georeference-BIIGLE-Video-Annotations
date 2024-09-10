@@ -17,5 +17,5 @@ This code is used to:
 1. **Calculate annotation time**: Based on the `start_time` and `frames`. `start_time` represents the start time of the annotated video, and the `frames` column provides the time, in seconds, of the annotation within that video.
 2. **Georeference the annotations**: By merging the time-stamped annotations with the time of the navigation file. 
 
-**Reference:**
+# References
 Langenkämper, D., Zurowietz, M., Schoening, T., & Nattkemper, T. W. (2017). Biigle 2.0-browsing and annotating large marine image collections. Frontiers in Marine Science, 4, 83. doi: 10.3389/fmars.2017.00083
