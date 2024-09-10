@@ -1,4 +1,3 @@
-# Georeference-BIIGLE-Video-Annotations
 
 This in an ad-hoc Python script used to merge the time-stamped video annotations of deep-sea benthic megafauna - annotated using the open-source software BIIGLE (biigle.de) (Langenkämper et al., 2017) - with a corresponding navigation file. In this case, the navigation file contains the USBL position of a Remotely Operated Vehicule (ROV) with information on time, latitude and longitude.
 
@@ -7,10 +6,10 @@ This in an ad-hoc Python script used to merge the time-stamped video annotations
 To run this code, you will need:
 
 - **Video annotation reports from BIIGLE**: Exported as a '.csv' file, with an additional for the start time of each annotated video.
-- *Note*: Before running the script, manually insert a new column with the start time of the video and remove the brackets '[ ]' in the 'frames' column.
+  *Note: Before running the script, manually insert a new column with the start time of the video and remove the brackets '[ ]' in the 'frames' column.*
 
 - **Navigation file**: A '.csv' file containing time, latitude and longitude.
-- *Note*: To run this code, 'time' must be formatted as HHMMSS (e.g., "16:53:47" should be represented as "165347"). Manually edit this column before running the script.
+  *Note: To run this code, 'time' must be formatted as HHMMSS (e.g., "16:53:47" should be represented as "165347"). Manually edit this column before running the script.*
 
 # Functionality 
 
